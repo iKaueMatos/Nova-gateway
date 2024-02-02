@@ -2,7 +2,7 @@ package com.gateway.gateway.modules.pagseguro.Application.Component;
 
 import org.springframework.stereotype.Component;
 
-import com.gateway.gateway.modules.Pagseguro.Application.Dtos.AddressDTO;
+import com.gateway.gateway.modules.pagseguro.Application.Dtos.AddressDTO;
 
 import br.com.uol.pagseguro.api.common.domain.builder.AddressBuilder;
 

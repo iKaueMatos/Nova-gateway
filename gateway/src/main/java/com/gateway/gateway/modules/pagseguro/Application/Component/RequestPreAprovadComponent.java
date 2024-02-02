@@ -2,7 +2,7 @@ package com.gateway.gateway.modules.pagseguro.Application.Component;
 
 import org.springframework.stereotype.Component;
 
-import com.gateway.gateway.modules.Pagseguro.Application.Dtos.RequestPreAprovadDTO;
+import com.gateway.gateway.modules.pagseguro.Application.Dtos.RequestPreAprovadDTO;
 
 import br.com.uol.pagseguro.api.common.domain.builder.DateRangeBuilder;
 import br.com.uol.pagseguro.api.common.domain.builder.PreApprovalRequestBuilder;

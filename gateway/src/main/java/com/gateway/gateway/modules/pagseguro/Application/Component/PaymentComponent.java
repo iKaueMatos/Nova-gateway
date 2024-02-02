@@ -5,9 +5,9 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.gateway.gateway.modules.Pagseguro.Application.Dtos.PaymentDTO;
-import com.gateway.gateway.modules.Pagseguro.Application.Dtos.ProductDTO;
-import com.gateway.gateway.modules.Pagseguro.Util.ConstantUtil;
+import com.gateway.gateway.modules.pagseguro.Application.Dtos.PaymentDTO;
+import com.gateway.gateway.modules.pagseguro.Application.Dtos.ProductDTO;
+import com.gateway.gateway.modules.pagseguro.util.ConstantUtil;
 
 import br.com.uol.pagseguro.api.transaction.register.DirectPaymentRegistrationBuilder;
 

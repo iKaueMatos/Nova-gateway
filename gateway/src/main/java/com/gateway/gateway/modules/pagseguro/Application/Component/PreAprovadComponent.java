@@ -3,7 +3,7 @@ package com.gateway.gateway.modules.pagseguro.Application.Component;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.gateway.gateway.modules.Pagseguro.Application.Dtos.PreAprovadDTO;
+import com.gateway.gateway.modules.pagseguro.Application.Dtos.PreAprovadDTO;
 
 import br.com.uol.pagseguro.api.preapproval.PreApprovalRegistrationBuilder;
 

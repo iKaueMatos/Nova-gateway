@@ -5,9 +5,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import com.gateway.gateway.modules.Pagseguro.Application.Component.CardCreditComponent;
-import com.gateway.gateway.modules.Pagseguro.Application.Dtos.PaymentDTO;
+import com.gateway.gateway.modules.pagseguro.Application.Component.CardCreditComponent;
 import com.gateway.gateway.modules.pagseguro.Application.Component.PaymentComponent;
+import com.gateway.gateway.modules.pagseguro.Application.Dtos.PaymentDTO;
 
 import br.com.uol.pagseguro.api.PagSeguro;
 import br.com.uol.pagseguro.api.transaction.register.DirectPaymentRegistrationBuilder;

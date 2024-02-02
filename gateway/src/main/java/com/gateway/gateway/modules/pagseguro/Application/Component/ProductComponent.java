@@ -2,7 +2,7 @@ package com.gateway.gateway.modules.pagseguro.Application.Component;
 
 import org.springframework.stereotype.Component;
 
-import com.gateway.gateway.modules.Pagseguro.Application.Dtos.ProductDTO;
+import com.gateway.gateway.modules.pagseguro.Application.Dtos.ProductDTO;
 
 import br.com.uol.pagseguro.api.common.domain.builder.PaymentItemBuilder;
 

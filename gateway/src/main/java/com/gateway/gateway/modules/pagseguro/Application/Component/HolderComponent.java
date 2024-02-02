@@ -7,14 +7,14 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.gateway.gateway.modules.Pagseguro.Application.Dtos.DocumentHolderDTO;
-import com.gateway.gateway.modules.Pagseguro.Application.Dtos.HolderDTO;
+import com.gateway.gateway.modules.pagseguro.Application.Dtos.DocumentHolderDTO;
+import com.gateway.gateway.modules.pagseguro.Application.Dtos.HolderDTO;
 
 import br.com.uol.pagseguro.api.common.domain.builder.HolderBuilder;
 
 @Component
 public class HolderComponent {
-	private PhoneComponent telefoneComponent;	
+	private PhoneComponent telefoneComponent;
 	private DocumentHolderComponent documentoTitularComponent;
 	
 	@Autowired

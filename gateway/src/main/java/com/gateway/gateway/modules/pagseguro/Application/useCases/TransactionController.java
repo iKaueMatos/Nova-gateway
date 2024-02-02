@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.gateway.gateway.modules.Pagseguro.Application.Dtos.PaymentDTO;
-import com.gateway.gateway.modules.Pagseguro.Domain.service.CheckoutTransparentService;
+import com.gateway.gateway.modules.pagseguro.Application.Dtos.PaymentDTO;
+import com.gateway.gateway.modules.pagseguro.Domain.service.CheckoutTransparentService;
 
 import br.com.uol.pagseguro.api.transaction.search.TransactionDetail;
 
